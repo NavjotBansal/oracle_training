@@ -1,8 +1,9 @@
-Git Homework - navjot bansal
+###Git Homework - navjot bansal
 
-Git Blame
+##Git Blame
+
+####From first user (shadow) made a file touch.cpp
 ```console
-From first user (shadow) made a file touch.cpp
 [shadow@master oracle_training]$ vi touch.cpp
 [shadow@master oracle_training]$ git add touch.cpp 
 [shadow@master oracle_training]$ git config --global user.email "shadow@gmail.com"
@@ -31,7 +32,7 @@ int main()
   return 0;  
 }
 ```
-From first user (navjotbansal) made a file touch.cpp
+####From first user (navjotbansal) made a file touch.cpp
 ```console
 [root@master test]# git pull origin master
 From https://github.com/NavjotBansal/oracle_training
@@ -72,7 +73,7 @@ caaab03c (navjotbansal 2020-09-29 04:10:10 +0530 7)   cin.tie(false);cout.tie(fa
 64365c09 (shadow       2020-09-29 04:05:09 +0530 8)   return 0;  
 64365c09 (shadow       2020-09-29 04:05:09 +0530 9) }
 ```
-Git grep 
+##Git grep 
 ```console
 [root@master test]# git grep "it"
 story.txt:right commit
@@ -81,7 +82,7 @@ touch.cpp:#include<bits/stdc++.h>
 touch.cpp:  ios_base::sync_with_stdio(false);
 [root@master test]# 
 ```
-Git describe
+##Git describe
 
 ```console
 [root@master test]# git tag -a v1.0 -m "version1.0"
@@ -138,10 +139,10 @@ v1.1
 [root@master test]# git describe
 v1.1
 ```
-Git Bisect
-( after the version 1.0 tag uuid.py file was added and pushed to v1.1 ) 
-as version 1.0 was good 
-so git showed uuid file to the bug ridden code of version post 1.0
+##Git Bisect
+####( after the version 1.0 tag uuid.py file was added and pushed to v1.1 ) 
+####as version 1.0 was good 
+####so git showed uuid file to the bug ridden code of version post 1.0
 
 ```console
 [root@master test]# git bisect start 
