@@ -78,7 +78,7 @@ caaab03c (navjotbansal 2020-09-29 04:10:10 +0530 7)   cin.tie(false);cout.tie(fa
 [root@master test]# git grep "it"
 story.txt:right commit
 story2.txt:wrong commit
-touch.cpp:#include<bits/stdc++.h>
+touch.cpp: #include<bits/stdc++.h>
 touch.cpp:  ios_base::sync_with_stdio(false);
 [root@master test]# 
 ```
